@@ -1,6 +1,6 @@
 import numpy as np
 
-with open("day9\input.txt") as f:
+with open("2023\day9\input.txt") as f:
     lines = [line.strip() for line in f.readlines()]
     histories = [list(map(int, historie.split(" "))) for historie in lines]
     histories = histories
